@@ -13,6 +13,7 @@
 
   <groupId>org.drools</groupId>
   <artifactId>droolsjbpm-knowledge</artifactId>
+  <version>5.4.0.Hibernate417</version>
   <packaging>pom</packaging>
 
   <name>Drools and jBPM knowledge multiproject</name>
@@ -21,6 +22,11 @@
   </description>
 
   <repositories>
+    <repository>
+      <id>artifactory-private-repository-group</id>
+      <name>Plugtree</name>
+      <url>http://www.plugtree.com/artifactory/jpm-drools</url>
+    </repository>
     <!-- Bootstrap repository to locate the parent pom when the parent pom has not been build locally. -->
     <repository>
       <id>jboss-public-repository-group</id>

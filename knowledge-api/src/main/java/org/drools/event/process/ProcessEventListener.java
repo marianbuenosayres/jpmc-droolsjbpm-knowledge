@@ -21,6 +21,8 @@ import java.util.EventListener;
 
 /**
  * A listener for events related to process instance execution.
+ * @author JBoss
+ * @author nicolas.loriente
  */
 public interface ProcessEventListener
     extends
@@ -92,4 +94,5 @@ public interface ProcessEventListener
 	 */
     void afterVariableChanged(ProcessVariableChangedEvent event);
 
+    void onNodeException(ProcessNodeExceptionOccurredEvent event);
 }

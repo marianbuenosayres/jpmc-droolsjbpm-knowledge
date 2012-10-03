@@ -16,6 +16,10 @@
 
 package org.drools.event.process;
 
+/**
+ * @author JBoss
+ * @author nicolas.loriente
+ */
 public class DefaultProcessEventListener
     implements
     ProcessEventListener {
@@ -60,4 +64,7 @@ public class DefaultProcessEventListener
         // intentionally left blank
     }
 
+    public void onNodeException(ProcessNodeExceptionOccurredEvent event) {
+        // intentionally left blank
+    }
 }
